@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import java.lang.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.shape.*?>
+<?import javafx.scene.text.*?>
+
+<AnchorPane id="anch" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" opacity="1.0" prefHeight="621.0" prefWidth="1152.999977929685" style="" xmlns:fx="http://javafx.com/fxml/1" xmlns="http://javafx.com/javafx/2.2" fx:controller="sample.Controller">
+  <children>
+    <AnchorPane layoutX="0.0" layoutY="0.0" prefHeight="57.0" prefWidth="1153.0" style="-fx-background-color: #9b5b1b">
+      <children>
+        <Button layoutX="452.0" layoutY="8.0" mnemonicParsing="false" prefHeight="34.0" prefWidth="93.0" style="" styleClass="myButton" text="Char" textFill="BLACK">
+          <font>
+            <Font size="20.0" fx:id="x1" />
+          </font>
+        </Button>
+        <Label alignment="CENTER" font="$x1" layoutX="663.0" layoutY="5.0" prefHeight="35.0" prefWidth="216.0" style="-fx-font-weight:bold;" text="Currency Converter" textFill="WHITE" />
+        <Button font="$x1" layoutX="22.0" layoutY="9.0" mnemonicParsing="false" prefHeight="35.0" prefWidth="131.0" style="" styleClass="myButton" text="Converter" textFill="BLACK" />
+        <Button font="$x1" layoutX="192.0" layoutY="9.0" mnemonicParsing="false" prefHeight="35.0" prefWidth="131.0" style="" styleClass="myButton" text="Favourites" textFill="BLACK" />
+      </children>
+    </AnchorPane>
+    <Separator layoutX="360.0" layoutY="57.0" minWidth="3.0" orientation="VERTICAL" prefHeight="564.0" prefWidth="3.0" style="-fx-background-color: black;&#10;-fx-border-width: 5px;&#10;-fx-border-color: black;" />
+    <Button layoutX="0.0" layoutY="57.0" mnemonicParsing="false" prefHeight="59.0" prefWidth="359.0" style="&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot;?&gt;&#10;&#10;&lt;?import java.lang.*?&gt;&#10;&lt;?import javafx.scene.*?&gt;&#10;&lt;?import javafx.scene.control.*?&gt;&#10;&lt;?import javafx.scene.text.*?&gt;&#10;&#10;&lt;Group id=&quot;sb-clipboard&quot; xmlns:fx=&quot;http://javafx.com/fxml/1&quot; xmlns=&quot;http://javafx.com/javafx/2.2&quot;&gt;&#10;  &lt;fx:define&gt;&#10;    &lt;Button layoutX=&quot;14.0&quot; layoutY=&quot;8.0&quot; mnemonicParsing=&quot;false&quot; prefHeight=&quot;35.0&quot; prefWidth=&quot;131.0&quot; style=&quot;&quot; styleClass=&quot;myButton&quot; text=&quot;Converter&quot; textFill=&quot;BLACK&quot;&gt;&#10;      &lt;font&gt;&#10;        &lt;Font size=&quot;20.0&quot; /&gt;&#10;      &lt;/font&gt;&#10;    &lt;/Button&gt;&#10;  &lt;/fx:define&gt;&#10;&lt;/Group&gt;&#10;" text="Area">
+      <font>
+        <Font size="30.0" fx:id="x2" />
+      </font>
+    </Button>
+    <Button font="$x2" layoutX="0.0" layoutY="116.0" mnemonicParsing="false" prefHeight="59.0" prefWidth="359.0" style="&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot;?&gt;&#10;&#10;&lt;?import java.lang.*?&gt;&#10;&lt;?import javafx.scene.*?&gt;&#10;&lt;?import javafx.scene.control.*?&gt;&#10;&lt;?import javafx.scene.text.*?&gt;&#10;&#10;&lt;Group id=&quot;sb-clipboard&quot; xmlns:fx=&quot;http://javafx.com/fxml/1&quot; xmlns=&quot;http://javafx.com/javafx/2.2&quot;&gt;&#10;  &lt;fx:define&gt;&#10;    &lt;Button layoutX=&quot;14.0&quot; layoutY=&quot;8.0&quot; mnemonicParsing=&quot;false&quot; prefHeight=&quot;35.0&quot; prefWidth=&quot;131.0&quot; style=&quot;&quot; styleClass=&quot;myButton&quot; text=&quot;Converter&quot; textFill=&quot;BLACK&quot;&gt;&#10;      &lt;font&gt;&#10;        &lt;Font size=&quot;20.0&quot; /&gt;&#10;      &lt;/font&gt;&#10;    &lt;/Button&gt;&#10;  &lt;/fx:define&gt;&#10;&lt;/Group&gt;&#10;" text="Currency" />
+    <Button font="$x2" layoutX="0.0" layoutY="175.0" mnemonicParsing="false" prefHeight="59.0" prefWidth="359.0" style="&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot;?&gt;&#10;&#10;&lt;?import java.lang.*?&gt;&#10;&lt;?import javafx.scene.*?&gt;&#10;&lt;?import javafx.scene.control.*?&gt;&#10;&lt;?import javafx.scene.text.*?&gt;&#10;&#10;&lt;Group id=&quot;sb-clipboard&quot; xmlns:fx=&quot;http://javafx.com/fxml/1&quot; xmlns=&quot;http://javafx.com/javafx/2.2&quot;&gt;&#10;  &lt;fx:define&gt;&#10;    &lt;Button layoutX=&quot;14.0&quot; layoutY=&quot;8.0&quot; mnemonicParsing=&quot;false&quot; prefHeight=&quot;35.0&quot; prefWidth=&quot;131.0&quot; style=&quot;&quot; styleClass=&quot;myButton&quot; text=&quot;Converter&quot; textFill=&quot;BLACK&quot;&gt;&#10;      &lt;font&gt;&#10;        &lt;Font size=&quot;20.0&quot; /&gt;&#10;      &lt;/font&gt;&#10;    &lt;/Button&gt;&#10;  &lt;/fx:define&gt;&#10;&lt;/Group&gt;&#10;" text="Energy" />
+    <Button font="$x2" layoutX="0.0" layoutY="234.0" mnemonicParsing="false" prefHeight="59.0" prefWidth="359.0" style="&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot;?&gt;&#10;&#10;&lt;?import java.lang.*?&gt;&#10;&lt;?import javafx.scene.*?&gt;&#10;&lt;?import javafx.scene.control.*?&gt;&#10;&lt;?import javafx.scene.text.*?&gt;&#10;&#10;&lt;Group id=&quot;sb-clipboard&quot; xmlns:fx=&quot;http://javafx.com/fxml/1&quot; xmlns=&quot;http://javafx.com/javafx/2.2&quot;&gt;&#10;  &lt;fx:define&gt;&#10;    &lt;Button layoutX=&quot;14.0&quot; layoutY=&quot;8.0&quot; mnemonicParsing=&quot;false&quot; prefHeight=&quot;35.0&quot; prefWidth=&quot;131.0&quot; style=&quot;&quot; styleClass=&quot;myButton&quot; text=&quot;Converter&quot; textFill=&quot;BLACK&quot;&gt;&#10;      &lt;font&gt;&#10;        &lt;Font size=&quot;20.0&quot; /&gt;&#10;      &lt;/font&gt;&#10;    &lt;/Button&gt;&#10;  &lt;/fx:define&gt;&#10;&lt;/Group&gt;&#10;" text="Time" />
+    <Button font="$x2" layoutX="0.0" layoutY="293.0" mnemonicParsing="false" prefHeight="59.0" prefWidth="359.0" style="&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot;?&gt;&#10;&#10;&lt;?import java.lang.*?&gt;&#10;&lt;?import javafx.scene.*?&gt;&#10;&lt;?import javafx.scene.control.*?&gt;&#10;&lt;?import javafx.scene.text.*?&gt;&#10;&#10;&lt;Group id=&quot;sb-clipboard&quot; xmlns:fx=&quot;http://javafx.com/fxml/1&quot; xmlns=&quot;http://javafx.com/javafx/2.2&quot;&gt;&#10;  &lt;fx:define&gt;&#10;    &lt;Button layoutX=&quot;14.0&quot; layoutY=&quot;8.0&quot; mnemonicParsing=&quot;false&quot; prefHeight=&quot;35.0&quot; prefWidth=&quot;131.0&quot; style=&quot;&quot; styleClass=&quot;myButton&quot; text=&quot;Converter&quot; textFill=&quot;BLACK&quot;&gt;&#10;      &lt;font&gt;&#10;        &lt;Font size=&quot;20.0&quot; /&gt;&#10;      &lt;/font&gt;&#10;    &lt;/Button&gt;&#10;  &lt;/fx:define&gt;&#10;&lt;/Group&gt;&#10;" text="Length" />
+    <Button font="$x2" layoutX="2.0" layoutY="352.0" mnemonicParsing="false" prefHeight="59.0" prefWidth="359.0" style="&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot;?&gt;&#10;&#10;&lt;?import java.lang.*?&gt;&#10;&lt;?import javafx.scene.*?&gt;&#10;&lt;?import javafx.scene.control.*?&gt;&#10;&lt;?import javafx.scene.text.*?&gt;&#10;&#10;&lt;Group id=&quot;sb-clipboard&quot; xmlns:fx=&quot;http://javafx.com/fxml/1&quot; xmlns=&quot;http://javafx.com/javafx/2.2&quot;&gt;&#10;  &lt;fx:define&gt;&#10;    &lt;Button layoutX=&quot;14.0&quot; layoutY=&quot;8.0&quot; mnemonicParsing=&quot;false&quot; prefHeight=&quot;35.0&quot; prefWidth=&quot;131.0&quot; style=&quot;&quot; styleClass=&quot;myButton&quot; text=&quot;Converter&quot; textFill=&quot;BLACK&quot;&gt;&#10;      &lt;font&gt;&#10;        &lt;Font size=&quot;20.0&quot; /&gt;&#10;      &lt;/font&gt;&#10;    &lt;/Button&gt;&#10;  &lt;/fx:define&gt;&#10;&lt;/Group&gt;&#10;" text="Weight" />
+    <Button font="$x2" layoutX="2.0" layoutY="411.0" mnemonicParsing="false" prefHeight="59.0" prefWidth="359.0" style="&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot;?&gt;&#10;&#10;&lt;?import java.lang.*?&gt;&#10;&lt;?import javafx.scene.*?&gt;&#10;&lt;?import javafx.scene.control.*?&gt;&#10;&lt;?import javafx.scene.text.*?&gt;&#10;&#10;&lt;Group id=&quot;sb-clipboard&quot; xmlns:fx=&quot;http://javafx.com/fxml/1&quot; xmlns=&quot;http://javafx.com/javafx/2.2&quot;&gt;&#10;  &lt;fx:define&gt;&#10;    &lt;Button layoutX=&quot;14.0&quot; layoutY=&quot;8.0&quot; mnemonicParsing=&quot;false&quot; prefHeight=&quot;35.0&quot; prefWidth=&quot;131.0&quot; style=&quot;&quot; styleClass=&quot;myButton&quot; text=&quot;Converter&quot; textFill=&quot;BLACK&quot;&gt;&#10;      &lt;font&gt;&#10;        &lt;Font size=&quot;20.0&quot; /&gt;&#10;      &lt;/font&gt;&#10;    &lt;/Button&gt;&#10;  &lt;/fx:define&gt;&#10;&lt;/Group&gt;&#10;" text="Speed" />
+    <Button font="$x2" layoutX="0.0" layoutY="470.0" mnemonicParsing="false" prefHeight="59.0" prefWidth="359.0" style="&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot;?&gt;&#10;&#10;&lt;?import java.lang.*?&gt;&#10;&lt;?import javafx.scene.*?&gt;&#10;&lt;?import javafx.scene.control.*?&gt;&#10;&lt;?import javafx.scene.text.*?&gt;&#10;&#10;&lt;Group id=&quot;sb-clipboard&quot; xmlns:fx=&quot;http://javafx.com/fxml/1&quot; xmlns=&quot;http://javafx.com/javafx/2.2&quot;&gt;&#10;  &lt;fx:define&gt;&#10;    &lt;Button layoutX=&quot;14.0&quot; layoutY=&quot;8.0&quot; mnemonicParsing=&quot;false&quot; prefHeight=&quot;35.0&quot; prefWidth=&quot;131.0&quot; style=&quot;&quot; styleClass=&quot;myButton&quot; text=&quot;Converter&quot; textFill=&quot;BLACK&quot;&gt;&#10;      &lt;font&gt;&#10;        &lt;Font size=&quot;20.0&quot; /&gt;&#10;      &lt;/font&gt;&#10;    &lt;/Button&gt;&#10;  &lt;/fx:define&gt;&#10;&lt;/Group&gt;&#10;" text="Temperature" />
+    <Button font="$x2" layoutX="0.0" layoutY="529.0" mnemonicParsing="false" prefHeight="90.0" prefWidth="359.0" style="&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot;?&gt;&#10;&#10;&lt;?import java.lang.*?&gt;&#10;&lt;?import javafx.scene.*?&gt;&#10;&lt;?import javafx.scene.control.*?&gt;&#10;&lt;?import javafx.scene.text.*?&gt;&#10;&#10;&lt;Group id=&quot;sb-clipboard&quot; xmlns:fx=&quot;http://javafx.com/fxml/1&quot; xmlns=&quot;http://javafx.com/javafx/2.2&quot;&gt;&#10;  &lt;fx:define&gt;&#10;    &lt;Button layoutX=&quot;14.0&quot; layoutY=&quot;8.0&quot; mnemonicParsing=&quot;false&quot; prefHeight=&quot;35.0&quot; prefWidth=&quot;131.0&quot; style=&quot;&quot; styleClass=&quot;myButton&quot; text=&quot;Converter&quot; textFill=&quot;BLACK&quot;&gt;&#10;      &lt;font&gt;&#10;        &lt;Font size=&quot;20.0&quot; /&gt;&#10;      &lt;/font&gt;&#10;    &lt;/Button&gt;&#10;  &lt;/fx:define&gt;&#10;&lt;/Group&gt;&#10;" text="Power" />
+    <AnchorPane layoutX="363.0" layoutY="57.0" prefHeight="472.0" prefWidth="790.0" style="-fx-background-color: #c59348;">
+      <children>
+        <AnchorPane layoutX="15.0" layoutY="14.0" prefHeight="445.0" prefWidth="762.0" style="-fx-background-color: #814311;">
+          <children>
+            <Label alignment="CENTER" contentDisplay="TOP" layoutX="514.0" layoutY="59.0" prefHeight="90.0" prefWidth="131.0" text="\$" textFill="WHITE">
+              <font>
+                <Font size="75.0" fx:id="x3" />
+              </font>
+            </Label>
+            <Label fx:id="dollarsum" alignment="CENTER" contentDisplay="TOP" font="$x3" layoutX="128.0" layoutY="59.0" prefHeight="100.0" prefWidth="396.0" text="0" textFill="WHITE" />
+            <Label fx:id="rublesum" alignment="CENTER" contentDisplay="TOP" font="$x3" layoutX="128.0" layoutY="200.0" prefHeight="100.0" prefWidth="396.0" text="0" textFill="WHITE" />
+            <Label alignment="CENTER" contentDisplay="TOP" font="$x3" layoutX="487.0" layoutY="200.0" prefHeight="100.0" prefWidth="185.0" text="RUB" textFill="WHITE" />
+            <Button fx:id="convertto" font="$x1" layoutX="234.0" layoutY="334.0" mnemonicParsing="false" prefHeight="35.0" prefWidth="253.0" style="" text="Convert" textFill="BLACK" />
+            <Button fx:id="reset" layoutX="695.0" layoutY="369.0" mnemonicParsing="false" prefHeight="90.0" prefWidth="79.0" style="" text="C">
+              <font>
+                <Font size="32.0" fx:id="x4" />
+              </font>
+            </Button>
+          </children>
+        </AnchorPane>
+      </children>
+    </AnchorPane>
+    <Button fx:id="one" font="$x4" layoutX="362.0" layoutY="529.0" mnemonicParsing="false" prefHeight="90.0" prefWidth="79.0" style="" text="1" />
+    <Button fx:id="two" font="$x4" layoutX="441.0" layoutY="529.0" mnemonicParsing="false" prefHeight="90.0" prefWidth="79.0" style="" text="2" />
+    <Button fx:id="three" font="$x4" layoutX="521.0" layoutY="529.0" mnemonicParsing="false" prefHeight="90.0" prefWidth="79.0" style="" text="3" />
+    <Button fx:id="four" font="$x4" layoutX="600.0" layoutY="529.0" mnemonicParsing="false" prefHeight="90.0" prefWidth="79.0" style="" text="4" />
+    <Button fx:id="five" font="$x4" layoutX="679.0" layoutY="529.0" mnemonicParsing="false" prefHeight="90.0" prefWidth="79.0" style="" text="5" />
+    <Button fx:id="six" font="$x4" layoutX="758.0" layoutY="529.0" mnemonicParsing="false" prefHeight="90.0" prefWidth="79.0" style="" text="6" />
+    <Button fx:id="seven" font="$x4" layoutX="837.0" layoutY="529.0" mnemonicParsing="false" prefHeight="90.0" prefWidth="79.0" style="" text="7" />
+    <Button fx:id="eight" font="$x4" layoutX="916.0" layoutY="529.0" mnemonicParsing="false" prefHeight="90.0" prefWidth="79.0" style="" text="8" />
+    <Button fx:id="nine" font="$x4" layoutX="995.0" layoutY="529.0" mnemonicParsing="false" prefHeight="90.0" prefWidth="79.0" style="" text="9" />
+    <Button fx:id="zero" font="$x4" layoutX="1074.0" layoutY="529.0" mnemonicParsing="false" prefHeight="90.0" prefWidth="79.0" style="" text="0" />
+  </children>
+</AnchorPane>
